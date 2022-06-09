@@ -1,4 +1,4 @@
-package br.com.lucao.ebac.polimorfismo.aulaUm
+package br.com.lucao.ebac.polimorfismo.aulaum
 
 open class Person {
    var name: String = ""
@@ -11,7 +11,6 @@ class Player : Person() {
    var number: Int = 0
    override fun toString() = super.toString() + "numero: ${this.number}"
 }
-
 
 fun main() {
 
